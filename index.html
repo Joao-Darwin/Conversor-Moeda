@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <p id="titulo">Conversor de Moeda Online</p>
+    </header>
+    <section id="section1">
+        <label>
+            <p id="text1">Valor em R$ (Real)</p>
+            <input id="valorReal" type="number" placeholder="R$">
+        </label>
+        <label>
+            <p id="text2">Para:</p>
+            <select id="tiposMoedas" name="tiposMoeda">
+                <option value="Dólar/USD">Dólar Americano (USD)</option>
+                <option value="Dólar/CAD">Dólar Canadense (CAD)</option>
+                <option value="Euro/EUR">Euro (EUR)</option>
+            </select>
+        </label><br>
+        <button id="botaoConverter" onclick="carregar()" type="submit">Converter</button>
+    </section>
+    <section id="section2">
+        <div id="conversaoReal">
+            <p><Strong>Conversão de:</Strong> Real/BRL</p>
+            <p><strong>Valor a converter:</strong>
+            <p id="msg2">R$ 0,00</p>
+            </p>
+        </div>
+        <div id="conversaoFinal">
+            <p><strong>Para:</strong>
+            <p id="msg3">Dólar/USD</p>
+            <p id="msg4"><strong>Resultado da conversão:</strong>
+            <p id="msg"></p>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p id="logo">&copy; João Darwin</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}
+
+#titulo {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#text1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#text2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#section1 {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.87);
+    box-shadow: 1px 1px 10px black;
+}
+
+#botaoConverter {
+    width: 115px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 255, 200);
+    background: transparent;
+    color: white;
+    transition: all 0.5s;
+}
+
+#botaoConverter:hover {
+    position: relative;
+    top: 45px;
+    background: rgb(95, 250, 75);
+    background: linear-gradient(90deg, rgba(95, 250, 75, 1) 0%, rgba(0, 255, 200, 1) 100%);
+    border: none;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+}
+
+#valorReal {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(0, 255, 200);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s;
+}
+
+#valorReal:hover {
+    position: relative;
+    top: -5px;
+}
+
+#tiposMoedas {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 255, 200);
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s;
+}
+
+#tiposMoedas:hover {
+    position: relative;
+    top: -5px;
+}
+
+option {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 20px solid rgb(0, 255, 200);
+    font-weight: 600;
+    color: white;
+}
+
+#section2 {
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    background-color: rgba(15, 15, 15, 0.87);
+    box-shadow: 1px 1px 10px black;
+    position: relative;
+    top: 40px;
+}
+
+#msg2 {
+    position: relative;
+    left: 140px;
+    bottom: 33px;
+}
+
+#msg3 {
+    position: relative;
+    left: 45px;
+    bottom: 33px;
+}
+
+#msg {
+    position: relative;
+    left: 195px;
+    bottom: 68px;
+}
+
+#msg4 {
+    position: relative;
+    bottom: 35px;
+}
+
+#conversaoFinal {
+    width: 270px;
+    height: 80px;
+    ;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(15, 15, 15);
+    position: relative;
+    bottom: 60px;
+    left: 400px;
+    box-shadow: 1px 1px 10px rgb(15, 15, 15);
+    transition: all 0.5s;
+}
+
+#conversaoFinal:hover {
+    position: relative;
+    bottom: 65px;
+}
+
+#conversaoReal {
+    width: 250px;
+    height: 80px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(15, 15, 15);
+    position: relative;
+    top: 30px;
+    left: 15px;
+    box-shadow: 1px 1px 10px rgb(15, 15, 15);
+    transition: all 0.5s;
+}
+
+#conversaoReal:hover {
+    position: relative;
+    top: 25px;
+}
+
+#logo {
+    position: relative;
+    top: 60px;
+    font-size: 15px;
+}
